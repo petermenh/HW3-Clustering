@@ -66,6 +66,11 @@ while (not stop == True):
     centroid2new = updateCentroid(cenList2)
     centroid3new = updateCentroid(cenList3)
 
+    print('Clusters')
+    print(cenList1)
+    print(cenList2)
+    print(cenList3)
+    print()
     print(centroid1new, centroid1old)
     print(centroid2new, centroid2old)
     print(centroid3new, centroid3old)
@@ -83,10 +88,16 @@ while (not stop == True):
 #print out the cluster assignments
 #and final cluster centroids
 print()
+print('---Final---')
+print()
+print('Clusters')
 print(cenList1)
 print(cenList2)
 print(cenList3)
 print()
+print('Centroids')
 print(centroid1new)
 print(centroid2new)
 print(centroid3new)
+print()
+print('Iterations: ', iteration-1)
