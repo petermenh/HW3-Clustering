@@ -1,3 +1,6 @@
+#Peter Menh
+#Homework 3
+
 from math import sqrt
 import os
 
@@ -18,6 +21,7 @@ table1 = [(2,10),(2,5),(8,4),(5,8),(7,5),(6,4),(1,2),(4,9)]
 iteration = 0
 stop = False
 
+#original centroids
 centroid1old = (1,1)
 centroid2old = (4,4)
 centroid3old = (7,7)
@@ -76,7 +80,8 @@ while (not stop == True):
         centroid2old = centroid2new
         centroid3old = centroid3new
 
-
+#print out the cluster assignments
+#and final cluster centroids
 print()
 print(cenList1)
 print(cenList2)
