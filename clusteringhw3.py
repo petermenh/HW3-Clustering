@@ -1,4 +1,3 @@
-
 from math import sqrt
 import os
 
@@ -86,5 +85,3 @@ print()
 print(centroid1new)
 print(centroid2new)
 print(centroid3new)
-
-
